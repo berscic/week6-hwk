@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>☀️ Weather App</title>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <script src="https://kit.fontawesome.com/e636a4ed52.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      
+    <div class="row">
+    <div class="col-6">
+      <h2 id="city-name">Malta</h2>
+      <h3 id="date">Tuesday, 21st June 2022</h3>
+      <h3 id="clock"> 16:00</h3>
+      <h4 id="type">Sunny</h4>
+      
+     <span> <span class="temp" id="main-temp">32 </span><a href="#" class="unit" id="celsius">°C</a></span>
+    
+
+    </div>
+    <div class="col-6">
+      <p id="humid"> Humidity: 61%</p>
+      <p id="wind"> Wind: 6Kts</p>
+    </div>
+    <form id="search-form">
+       <span class="search"><label for="searchbar"> Search</label>
+        <input type="text" id="search-input" placeholder="e.g. Malta" />
+      </form>
+       <button type="button" id="search" class="btn btn-success">Search</button>
+      <button type="button" id="current" class="btn btn-primary">Current location</button></span>
+  </div>
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+  <div class="card-body">
+    <h6>Wednesday 22nd June</h6>
+    <p class="temp"><i class="fa-solid fa-sun bottom"></i><br> 34°C</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card">
+  <div class="card-body">
+    <h6>Thursday 23rd June</h6>
+    <p class="temp"><i class="fa-solid fa-sun bottom"></i><br> 35°C</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card">
+  <div class="card-body">
+    <h6>Friday 24th June</h6>
+    <p class="temp"><i class="fa-solid fa-sun bottom"></i> <br> 37°C</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card">
+  <div class="card-body">
+    <h6>Saturday 25th June</h6>
+    <p class="temp"><i class="fa-solid fa-sun bottom"></i><br> 37°C</p>
+  </div>
+</div>
+    </div>
+    <div class="col">
+      <div class="card">
+  <div class="card-body">
+    <h6>Sunday 26th June</h6>
+    <p class="temp"><i class="fa-solid fa-sun bottom"></i> <br> 39°C</p>
+  </div>
+</div>
+    </div>
+  </div>
+</div>
+</div>
+    </div>
+    <script src="src/java.js"></script>
+  </body>
+</html>
